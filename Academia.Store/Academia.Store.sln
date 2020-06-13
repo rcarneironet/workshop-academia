@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{050AD7EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Store.Domain", "..\src\Academia.Store.Domain\Academia.Store.Domain.csproj", "{46FF5D1B-50F3-4340-9E7E-869AB2AA803E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Store.Tests", "..\src\Academia.Store.Tests\Academia.Store.Tests.csproj", "{6E54CD3F-83F1-49D5-813C-B53D7D61F34B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +29,17 @@ Global
 		{46FF5D1B-50F3-4340-9E7E-869AB2AA803E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46FF5D1B-50F3-4340-9E7E-869AB2AA803E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46FF5D1B-50F3-4340-9E7E-869AB2AA803E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E54CD3F-83F1-49D5-813C-B53D7D61F34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E54CD3F-83F1-49D5-813C-B53D7D61F34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E54CD3F-83F1-49D5-813C-B53D7D61F34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E54CD3F-83F1-49D5-813C-B53D7D61F34B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{46FF5D1B-50F3-4340-9E7E-869AB2AA803E} = {723872ED-F5B6-47C4-B9E5-BBE9378B610F}
+		{6E54CD3F-83F1-49D5-813C-B53D7D61F34B} = {050AD7EF-AD46-44AE-A27C-0137B4C4A96C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D823E8-B157-4EA7-BFFA-6622F3FCE725}

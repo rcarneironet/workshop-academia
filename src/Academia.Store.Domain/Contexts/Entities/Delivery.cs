@@ -25,7 +25,7 @@ namespace Academia.Store.Domain.Contexts.Entities
 
         public void Cancel()
         {
-            Status = EDeliveryStatus.Sent;
+            Status = EDeliveryStatus.Canceled;
         }
     }
 }

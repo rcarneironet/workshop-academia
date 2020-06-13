@@ -1,6 +1,5 @@
 ﻿using FluentValidator;
 using FluentValidator.Validation;
-using System;
 
 namespace Academia.Store.Domain.Contexts.ValueObjects
 {
