@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Store.Application"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Academia.Store.SQLProject", "..\src\Academia.Store.SQLProject\Academia.Store.SQLProject.sqlproj", "{56B77E35-87CC-4024-B5D0-820AB53135D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Store.API", "..\src\Academia.Store.API\Academia.Store.API.csproj", "{30A1E240-1234-4DCE-AB3E-B08B9089CF29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{56B77E35-87CC-4024-B5D0-820AB53135D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B77E35-87CC-4024-B5D0-820AB53135D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56B77E35-87CC-4024-B5D0-820AB53135D1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{30A1E240-1234-4DCE-AB3E-B08B9089CF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A1E240-1234-4DCE-AB3E-B08B9089CF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A1E240-1234-4DCE-AB3E-B08B9089CF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A1E240-1234-4DCE-AB3E-B08B9089CF29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{21D60B97-F690-4FDE-A724-D02BFCB518FF} = {486DD56D-C226-4881-BC99-F8D7C106CD16}
 		{2746ED80-C355-44A5-99D3-14ADDA49D832} = {FCEFF79A-6607-485C-B6C3-0EF571426352}
 		{56B77E35-87CC-4024-B5D0-820AB53135D1} = {486DD56D-C226-4881-BC99-F8D7C106CD16}
+		{30A1E240-1234-4DCE-AB3E-B08B9089CF29} = {505580B4-7648-417E-B037-03A12DFE06BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {90D823E8-B157-4EA7-BFFA-6622F3FCE725}
