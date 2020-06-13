@@ -8,6 +8,7 @@ namespace Academia.Store.Infrastructure.IoC.Application
         internal void ChildServiceRegister(IServiceCollection services)
         {
             services.AddTransient<CustomerCommandHandler, CustomerCommandHandler>();
+            services.AddTransient<CustomerQueryHandler, CustomerQueryHandler>();
         }
     }
 }

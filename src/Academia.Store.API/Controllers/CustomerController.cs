@@ -9,9 +9,13 @@ namespace Academia.Store.API.Controllers
     public class CustomerController : Controller
     {
         private readonly CustomerCommandHandler _commandHandler;
-        public CustomerController(CustomerCommandHandler commandHandler)
+        private readonly CustomerQueryHandler _queryHandler;
+        public CustomerController(
+            CustomerCommandHandler commandHandler,
+            CustomerQueryHandler queryHandler)
         {
             _commandHandler = commandHandler;
+            _queryHandler = queryHandler;
         }
 
         [HttpPost("create")]
@@ -23,5 +27,16 @@ namespace Academia.Store.API.Controllers
         {
             return StatusCode(201, _commandHandler.Handle(command));
         }
+
+        [HttpGet("getAllCustomers")]
+        [ProducesResponseType(typeof(string), 200)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(401)]
+        [ProducesResponseType(500)]
+        public IActionResult Get()
+        {
+            return StatusCode(200, _queryHandler.Handle());
+        }
+
     }
 }

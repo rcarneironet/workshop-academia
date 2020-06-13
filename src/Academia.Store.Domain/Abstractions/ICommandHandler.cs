@@ -7,6 +7,6 @@
 
     public interface IQueryHandler<T>
     {
-        IResult Handle(T query);
+        IResult Handle();
     }
 }
